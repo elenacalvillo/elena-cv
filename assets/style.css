@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+
+html,
+body {
+  background-color: #f9f9ff;
+  color: #1D2337;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.8em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300 !important;
+}
+
+a {
+  color: #2b9a9b;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #83dbdd;
+  text-decoration: none;
+}
+
+h1, .h1 {
+	font-size: 3em;
+}
+
+h2, .h2 {
+	font-size: 2.5em;
+}
+
+/* ------------------ Colors ---------------------*/
+
+.bg-primary {
+  background-color: #47cacc !important;
+  color: white;
+}
+
+.text-primary {
+	color: #47cacc !important;
+}
+
+.bg-secondary {
+  background-color: #808ed7 !important;
+}
+
+.bg-warning {
+  background-color: #F2AE2E !important;
+}
+
+.bg-dark {
+  background-color: #2E3959 !important;
+  color: white;
+}
+
+.text-dark {
+	color: #2E3959 !important;
+}
+
+/*
+
+.bg-success {
+  background-color: #89e39e !important;
+}
+
+.bg-info {
+  background-color: #66d7ee !important;
+}
+
+.text-info {
+	color: #66d7ee !important;
+}
+
+.bg-danger {
+  background-color: #FFA0A0 !important;
+}
+
+*/
+
+/* ------------------- Utilities --------------------- */
+
+.shadow {
+	-webkit-box-shadow: 0px 0px 40px 1px rgba(167, 176, 216, 0.3) !important;
+  -moz-box-shadow: 0px 0px 40px 1px rgba(167, 176, 216, 0.3) !important;
+  box-shadow: 0px 0px 40px 1px rgba(167, 176, 216, 0.3) !important;
+}
+
+.bold {
+	font-weight: bold !important;
+}
+
+/* ------------------- Customs --------------------- */
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background-color: #47cacc;
+}
+
+.border {
+	border: 3px solid #47cacc !important;
+}
+
+.container {
+	margin: 3rem auto 3rem auto;
+}
+
+.card-deck {
+	margin-bottom: 1.5rem;
+}
+
+ .card {
+	 background: white;
+	 	 border: none;
+	 border-radius: .5rem;
+	 -webkit-box-shadow: 0px 0px 40px 1px rgba(167, 176, 216, 0.3);
+  -moz-box-shadow: 0px 0px 40px 1px rgba(167, 176, 216, 0.3);
+  box-shadow: 0px 0px 40px 1px rgba(167, 176, 216, 0.3);
+ }
+ 
+.card .card-header {
+	 	background: transparent;
+	 	 border: none;
+ }
+ 
+  .card, .card .card-body {
+	 padding-top: 0;
+ }
+ 
+.card-footer {
+	 border-bottom-left-radius: .5rem !important;
+	 border-bottom-right-radius: .5rem !important;
+ }
+ 
+ .clients {
+	 background: white;
+	 border-radius: .5rem;
+	 -webkit-box-shadow: 0px 0px 40px 1px rgba(167, 176, 216, 0.3);
+	 -moz-box-shadow: 0px 0px 40px 1px rgba(167, 176, 216, 0.3);
+	 box-shadow: 0px 0px 40px 1px rgba(167, 176, 216, 0.3);
+	 margin-top: -7em;
+	 padding: 1em;
+	 position: relative;
+	 z-index: 3;
+ }
+ 
+ .clients a {
+	 margin: 0 1em;
+ }
+ 
+.card-image {
+	border-top-left-radius: .5rem;
+	 border-top-right-radius: .5rem;
+	max-height: 40vh;
+	overflow: hidden;
+ }
+ 
+.card-image img {
+	 display: block;
+	 margin: 0 auto;
+	 width: 100%;
+ }
+ 
+ .technologies .card {
+	 border-radius: 50rem;
+	 margin: .5em 1em;
+	 text-align: center;
+ }
+ 
+.technologies .card img {
+  max-height: 40px;
+}
+
+.technologies .card .svg {
+  width: 100px;
+  height: 40px;
+}
+ 
+ .technologies .card. .card-header {
+	 padding: .5em;
+ }
+ 
+ .list-group img.course {
+	 width: 15%;
+ }
+ 
+  .contact {
+	 color: white;
+	 background: #2E3959 !important;
+	 border-radius: .5rem;
+	 -webkit-box-shadow: 0px 0px 40px 1px rgba(167, 176, 216, 0.3);
+	 -moz-box-shadow: 0px 0px 40px 1px rgba(167, 176, 216, 0.3);
+	 box-shadow: 0px 0px 40px 1px rgba(167, 176, 216, 0.3);
+	 padding: 2em;
+	 position: relative;
+ }
+ 
+ footer {
+	 margin-top: -10em;
+	 padding: 7em 0 0;
+ }
+ 
+/* ------------------- Forms --------------------- */
+
+.btn, .btn:hover {
+	border: 0 !important;
+}
+
+.btn-primary, .badge-primary{
+  color: #fff !important;
+  background-color: #47cacc !important;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(109, 176, 255, 0.50);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(109, 176, 255, 0.50);
+  box-shadow: 0px 5px 15px 0px rgba(109, 176, 255, 0.50);
+}
+
+.btn-primary:hover {
+ background-color: #79a6ff;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #8DE5DB;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(194, 200, 225, 0.50);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(194, 200, 225, 0.50);
+  box-shadow: 0px 5px 15px 0px rgba(194, 200, 225, 0.50);
+}
+
+.btn-secondary:hover {
+ background-color: #6dded1;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #89e39e;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(109, 242, 168, 0.50);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(109, 242, 168, 0.50);
+  box-shadow: 0px 5px 15px 0px rgba(109, 242, 168, 0.50);
+}
+
+.btn-success:hover {
+ background-color: #69db84;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #A0ECFF;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(144, 246, 255, 0.50);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(144, 246, 255, 0.50);
+  box-shadow: 0px 5px 15px 0px rgba(144, 246, 255, 0.50);
+}
+
+.btn-info:hover {
+ background-color: #79e4ff;
+}
+
+.btn-warning {
+  color: #303a62;
+  background-color: #FFE2A0;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(255, 208, 130, 0.50);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(255, 208, 130, 0.50);
+  box-shadow: 0px 5px 15px 0px rgba(255, 208, 130, 0.50);
+}
+
+.btn-warning:hover {
+ background-color: #ffd679;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #FFA0A0;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(255, 163, 198, 0.50);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(255, 163, 198, 0.50);
+  box-shadow: 0px 5px 15px 0px rgba(255, 163, 198, 0.50);
+}
+
+.btn-danger:hover {
+ background-color: #ff7979;
+}
+
+.btn-light {
+	  color: #2b9a9b !important;
+	  background-color: rgba(255,255,255,0.3) !important;
+}
+
+.btn-light:hover {
+	  color: #83dbdd !important;
+	  background-color: rgba(43, 154, 155,0.3) !important;
+}
+
+@media screen and (max-width: 768px) {
+	.picture {width: 100% !important;}
+	.technologies .card {
+		 margin: .3em;
+	 }
+	 .courses {
+		  margin: 0 -15px;
+		  justify-content: space-between !important;
+		}
+		
+	 .courses .card {
+	    -ms-flex: 0 0 48.7% !important;
+	    flex: 0 0 48.7% !important;
+	  }
+}
