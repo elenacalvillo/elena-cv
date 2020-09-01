@@ -310,11 +310,11 @@ mixpanel.init("28e9dc0df47eb4f5a5dc1d4bf1036831", {batch_requests: true})</scrip
                     <img class="img-fluid" src="https://static.platzi.com/media/achievements/Golden-badge-arquitecto-front.png" alt="Front-end Architecture">
                 </div>
                 <div class="card-body">
-	                <a class="h4 bold" href="assets/certificates/diploma-arquitecto.pdf" target="_blank">
+	                <a id="frontend" class="h4 bold" href="assets/certificates/diploma-arquitecto.pdf" target="_blank">
 		                <p>Front-end Architecture</p>
 		            </a>
-	                <a class="btn btn-primary" data-toggle="collapse" href="#frontendCourses" role="button" aria-expanded="false" aria-controls="frontendCourses">
-		                <span class="d-inline align-middle">Conformed by these courses</span>
+	                <a id="courses" class="btn btn-primary" data-toggle="collapse" href="#frontendCourses" role="button" aria-expanded="false" aria-controls="frontendCourses">
+		                <span class="d-inline align-middle">See complete courses</span>
 		                <img src="https://img.icons8.com/ios-glyphs/20/ffffff/down-squared.png">
 		            </a>
 					<div class="collapse multi-collapse" id="frontendCourses">
@@ -430,7 +430,7 @@ mixpanel.init("28e9dc0df47eb4f5a5dc1d4bf1036831", {batch_requests: true})</scrip
                     <img class="img-fluid" src="https://static.platzi.com/media/achievements/golden-badge-ingles-0f58998c-7476-4329-bef9-a16a20b29adc.png" alt="English">
                 </div>
                 <div class="card-body">
-	                <a class="h4 bold" href="assets/certificates/diploma-idioma-ingles.pdf" target="_blank">English</a>
+	                <a id="english" class="h4 bold" href="assets/certificates/diploma-idioma-ingles.pdf" target="_blank">English</a>
                 </div>
             </div>
             
@@ -594,7 +594,7 @@ mixpanel.init("28e9dc0df47eb4f5a5dc1d4bf1036831", {batch_requests: true})</scrip
 				<p>I'll be glad to collaborate with you, nothing a cup of coffee can't solve.</p>
 			</div>
 			<div class="col">    
-						<a class="btn btn-primary rounded-pill" href="mailto:hello@elenacalvillo.com" target="_blank">
+						<a id="stayintouch" class="btn btn-primary rounded-pill" href="mailto:hello@elenacalvillo.com" target="_blank">
 		                   Stay in touch
 		                </a>
 					</div>
@@ -612,37 +612,37 @@ mixpanel.init("28e9dc0df47eb4f5a5dc1d4bf1036831", {batch_requests: true})</scrip
         </div>
         <div class="row justify-content-center mt-3">
             <div class="col- m-2">
-                <a class="btn btn-light" href="https://twitter.com/Elenahx" target="_blank">
+                <a id="twitter" class="btn btn-light" href="https://twitter.com/Elenahx" target="_blank">
                     <img src="https://img.icons8.com/ios-filled/30/ffffff/twitter.png" alt="Twitter">
                     <span class="d-inline align-middle">Twitter</span>
                 </a>
             </div>
             <div class="col- m-2">
-                <a class="btn btn-light" href="https://www.linkedin.com/in/elena-calvillo-863542169/" target="_blank">
+                <a id="linkedin" class="btn btn-light" href="https://www.linkedin.com/in/elena-calvillo-863542169/" target="_blank">
                     <img src="https://img.icons8.com/ios-filled/30/ffffff/linkedin.png" alt="LinkedIn">
                     <span class="d-inline align-middle">Linkedin</span>
                 </a>
             </div>
             <div class="col- m-2">
-                <a class="btn btn-light" href="https://github.com/elenacalvillo" target="_blank">
+                <a id="github" class="btn btn-light" href="https://github.com/elenacalvillo" target="_blank">
                     <img src="https://img.icons8.com/ios-filled/30/ffffff/github.png" alt="Github">
                     <span class="d-inline align-middle">Github</span>
                 </a>
             </div>
             <div class="col- m-2">
-                <a class="btn btn-light" href="https://dribbble.com/Elenahx" target="_blank">
+                <a id="dribbble" class="btn btn-light" href="https://dribbble.com/Elenahx" target="_blank">
                     <img src="https://img.icons8.com/ios-filled/30/ffffff/dribbble.png" alt="Dribbble">
                     <span class="d-inline align-middle">Dribbble</span>
                 </a>
             </div>
             <div class="col- m-2">
-                <a class="btn btn-light" href="https://www.behance.net/Elenaca" target="_blank">
+                <a id="behance" class="btn btn-light" href="https://www.behance.net/Elenaca" target="_blank">
                     <img src="https://img.icons8.com/ios-filled/30/ffffff/behance.png" alt="Behance">
                     <span class="d-inline align-middle">Behance</span>
                 </a>
             </div>
             <div class="col- m-2">
-                <a class="btn btn-light" href="https://codepen.io/elenahx" target="_blank">
+                <a id="codepen" class="btn btn-light" href="https://codepen.io/elenahx" target="_blank">
                     <img src="https://img.icons8.com/ios-filled/30/ffffff/codepen.png" alt="Codepen">
                     <span class="d-inline align-middle">Codepen</span>
                 </a>
@@ -650,7 +650,7 @@ mixpanel.init("28e9dc0df47eb4f5a5dc1d4bf1036831", {batch_requests: true})</scrip
         </div>
         <div class="row mt-4">
             <div class="col">
-                <p>Coded with ❤️ and &#x2615;. <a href="https://icons8.com/" target="_blank">All icons by Icons8</a></p>
+                <p>Coded with ❤️ and &#x2615;. <a id="icons8" href="https://icons8.com/" target="_blank">All icons by Icons8</a></p>
             </div>
         </div>
     </footer>
@@ -662,7 +662,18 @@ mixpanel.init("28e9dc0df47eb4f5a5dc1d4bf1036831", {batch_requests: true})</scrip
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" type="text/javascript">
     </script>
     <script type="text/javascript">
-        mixpanel.track_links("#SendEmail","Send Email clicked");
+        mixpanel.track_links("#SendEmail","Send Email Clicked");
+        mixpanel.track_links("#icons8","icons8 Clicked");
+        mixpanel.track_links("#codepen","Codepen Link Clicked");
+        mixpanel.track_links("#behance","Behance Link Clicked");
+        mixpanel.track_links("#dribbble","Dribbble Link Clicked");
+        mixpanel.track_links("#github","Github Link Clicked");
+        mixpanel.track_links("#linkedin","Linkedin Link Clicked");
+        mixpanel.track_links("#twitter","Twitter Link Clicked");
+        mixpanel.track_links("#stayintouch","Stay in touch Button Clicked");
+        mixpanel.track_links("#courses","Courses Dropdown Clicked");
+        mixpanel.track_links("#frontend","Front-end Link Clicked");
+        mixpanel.track_links("#english","English Link Clicked");
     </script>
 </body>
 
